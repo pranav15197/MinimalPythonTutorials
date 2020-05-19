@@ -112,11 +112,11 @@ function Setup() {
       <p>
         So let's not waste any more time and move to your first real tutorial!
       </p>
-      
       <footer>
       Next tutorial -
       <Link to="/hello-world">Hello World!</Link>
       </footer>
+
     </div>
   );
 }
