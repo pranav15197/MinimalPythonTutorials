@@ -12,6 +12,9 @@
 }
 
 footer {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid gray;
   height: 100px;
   width: 100%;
 }
@@ -22,6 +25,8 @@ h1 {
 
 a {
   font-weight: 400;
+  display: block;
+  margin-bottom: 20px;
   font-size: 1.4em;
   color: black;
 }
@@ -29,6 +34,7 @@ a {
 p > a {
   font-weight: 700;
   font-size: 1.0em;
+  display: inline;
   color: black;
 }
 
