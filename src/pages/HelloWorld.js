@@ -7,6 +7,9 @@ function HelloWorld() {
       <Link to="/">Home</Link>
       <h1>Hello World!</h1>
       <br/>
+      <p>
+        It's a tradition to start every coding tutorial with a Hello World program.
+      </p>
       <footer></footer>
     </div>
   );
