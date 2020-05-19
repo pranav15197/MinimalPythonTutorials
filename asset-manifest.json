@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/MinimalPythonTutorials/static/css/main.7cb33287.chunk.css",
-    "main.js": "/MinimalPythonTutorials/static/js/main.aab2ac44.chunk.js",
-    "main.js.map": "/MinimalPythonTutorials/static/js/main.aab2ac44.chunk.js.map",
-    "runtime-main.js": "/MinimalPythonTutorials/static/js/runtime-main.15a800d8.js",
-    "runtime-main.js.map": "/MinimalPythonTutorials/static/js/runtime-main.15a800d8.js.map",
-    "static/js/2.adecc805.chunk.js": "/MinimalPythonTutorials/static/js/2.adecc805.chunk.js",
-    "static/js/2.adecc805.chunk.js.map": "/MinimalPythonTutorials/static/js/2.adecc805.chunk.js.map",
-    "index.html": "/MinimalPythonTutorials/index.html",
-    "precache-manifest.93d146c3a3faf79a654c1059064a86c7.js": "/MinimalPythonTutorials/precache-manifest.93d146c3a3faf79a654c1059064a86c7.js",
-    "service-worker.js": "/MinimalPythonTutorials/service-worker.js",
-    "static/css/main.7cb33287.chunk.css.map": "/MinimalPythonTutorials/static/css/main.7cb33287.chunk.css.map",
-    "static/js/2.adecc805.chunk.js.LICENSE.txt": "/MinimalPythonTutorials/static/js/2.adecc805.chunk.js.LICENSE.txt",
-    "static/media/download_python.png": "/MinimalPythonTutorials/static/media/download_python.52caeb2a.png",
-    "static/media/terminal.gif": "/MinimalPythonTutorials/static/media/terminal.757c1dbb.gif"
+    "main.css": "/static/css/main.2cdee693.chunk.css",
+    "main.js": "/static/js/main.04fcc825.chunk.js",
+    "main.js.map": "/static/js/main.04fcc825.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8a8c62f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8a8c62f6.js.map",
+    "static/js/2.430fbb34.chunk.js": "/static/js/2.430fbb34.chunk.js",
+    "static/js/2.430fbb34.chunk.js.map": "/static/js/2.430fbb34.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.bea5d97f00e06da63add19d9b19432d8.js": "/precache-manifest.bea5d97f00e06da63add19d9b19432d8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.2cdee693.chunk.css.map": "/static/css/main.2cdee693.chunk.css.map",
+    "static/js/2.430fbb34.chunk.js.LICENSE.txt": "/static/js/2.430fbb34.chunk.js.LICENSE.txt",
+    "static/media/download_python.png": "/static/media/download_python.52caeb2a.png",
+    "static/media/terminal.gif": "/static/media/terminal.757c1dbb.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.15a800d8.js",
-    "static/js/2.adecc805.chunk.js",
-    "static/css/main.7cb33287.chunk.css",
-    "static/js/main.aab2ac44.chunk.js"
+    "static/js/runtime-main.8a8c62f6.js",
+    "static/js/2.430fbb34.chunk.js",
+    "static/css/main.2cdee693.chunk.css",
+    "static/js/main.04fcc825.chunk.js"
   ]
 }
