@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/MinimalPythonTutorials/static/css/main.5f361e03.chunk.css",
+    "main.js": "/MinimalPythonTutorials/static/js/main.ada7d9fd.chunk.js",
+    "main.js.map": "/MinimalPythonTutorials/static/js/main.ada7d9fd.chunk.js.map",
+    "runtime-main.js": "/MinimalPythonTutorials/static/js/runtime-main.15a800d8.js",
+    "runtime-main.js.map": "/MinimalPythonTutorials/static/js/runtime-main.15a800d8.js.map",
+    "static/js/2.4c5fa70c.chunk.js": "/MinimalPythonTutorials/static/js/2.4c5fa70c.chunk.js",
+    "static/js/2.4c5fa70c.chunk.js.map": "/MinimalPythonTutorials/static/js/2.4c5fa70c.chunk.js.map",
+    "index.html": "/MinimalPythonTutorials/index.html",
+    "precache-manifest.25f44e3efc17bffa5df7bb7177ef210a.js": "/MinimalPythonTutorials/precache-manifest.25f44e3efc17bffa5df7bb7177ef210a.js",
+    "service-worker.js": "/MinimalPythonTutorials/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/MinimalPythonTutorials/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.4c5fa70c.chunk.js.LICENSE.txt": "/MinimalPythonTutorials/static/js/2.4c5fa70c.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/MinimalPythonTutorials/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.15a800d8.js",
+    "static/js/2.4c5fa70c.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.ada7d9fd.chunk.js"
+  ]
+}
