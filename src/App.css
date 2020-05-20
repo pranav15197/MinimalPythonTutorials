@@ -28,7 +28,7 @@ ol, li {
   margin: 1em 0;
   font-size: 1.0em;
   color: #333;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 code {
@@ -57,7 +57,7 @@ p > a {
 }
 
 p {
-  font-weight: 300;
+  font-weight: 400;
   color: black;
   color: #333;
   line-height: 180%;
