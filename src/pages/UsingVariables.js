@@ -55,7 +55,8 @@ function HelloWorld() {
       <p>
         Another interesting thing is what happens on line 4. On all the other lines,
         anything we print is displayed as it is. But on line 4, python first computes
-        the answer to 160 X 160, which is 25600 and then prints it.
+        the answer to <code> 160*160 </code>, which is <code> 25600 </code> and 
+        then prints it.
       </p>
       <br/>
       <h1>Calculating BMI</h1>
@@ -70,7 +71,8 @@ function HelloWorld() {
       </p>
       <Gist id={'e945092d51674a60b2ca01aaf2769ff2'} />
       <p>
-        Notice how we have the brackets around 64*1000 and 160*160 on line 10.
+        Notice how we have the brackets around <code> 64*1000 </code> and 
+        <code> 160*160 </code> on line 10.
         This is so that both these products are calculated first, and then the
         division happens. Go ahead and run this code. You should see the
         following output.

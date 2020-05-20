@@ -26,6 +26,15 @@ h1 {
 
 ol, li {
   margin: 1em 0;
+  font-size: 1.0em;
+  color: #333;
+  font-weight: 300;
+}
+
+code {
+  margin: 0 5px;
+  color: black;
+  font-size: 1.2em;
 }
 
 pre {
@@ -51,8 +60,8 @@ p {
   font-weight: 300;
   color: black;
   color: #333;
-  line-height: 140%;
-  font-size: 1.1em;
+  line-height: 180%;
+  font-size: 1.0em;
 }
 
 img {
