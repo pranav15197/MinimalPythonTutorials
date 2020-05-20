@@ -23,6 +23,14 @@ h1 {
   font-weight: 700;
 }
 
+ol, li {
+  margin: 1em 0;
+}
+
+pre {
+  padding-left:10px
+}
+
 a {
   font-weight: 400;
   display: block;
