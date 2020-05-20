@@ -20,9 +20,10 @@ function HelloWorld() {
       <br/>
       <h1>Numbers in Python</h1>
       <p>
-        In the last tutorial, we printed the text 'Hello World'. Such text 
+        In the last tutorial, we printed the text <code>Hello World</code>. Such text 
         values are called <b>strings</b>. All you need to know about strings, for
-        now, is they should be surrounded by quotes ( <b>'</b> or <b>"</b> are
+        now, is they should be surrounded by quotes ( <code>'</code> or
+         <code>"</code> are
         both ok).
       </p>
       <p>
@@ -116,8 +117,8 @@ function HelloWorld() {
       </p>
       <Gist id={'557041c94454f472a20de4b73e6e69dd'}/>
       <p>
-        We now have a variable named <b>height</b> whose value is 160, and a 
-        variable named <b>weight</b> whose value is 64. Let's update our BMI 
+        We now have a variable named <code>height</code> whose value is 160, and a 
+        variable named <code>weight</code> whose value is 64. Let's update our BMI 
         calculation code using these variables.
       </p>
       <Gist id={'8f55b6b6c979ef34a99f633567f14439'}/>
