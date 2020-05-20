@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Gist from 'react-gist'
 import input_gif from '../assets/user_input.gif'
+import bmi_input_gif from '../assets/bmi_with_input.gif'
 
 function HelloWorld() {
   return (
@@ -28,7 +29,7 @@ function HelloWorld() {
       </p>
       <Gist id={'7e875ec4af3bc5008b099ad85c7e46ab'}/>
       <p>
-        I'll explain what's going on here, but first you should run this code and see it in action.
+        I'll explain what's going on here, but first, you should run this code and see it in action.
         You should see the text 
       </p>
       <code>Please enter your height: </code>
@@ -57,8 +58,61 @@ function HelloWorld() {
         and integers like <code>64, 120</code>. The input method we used earlier will always return
         the user's input as a string.
       </p>
-      <p>This means that the value stored <code></code></p>
+      <p>
+        This means that the value stored in <code>height</code> is actually the
+        string <code>'120'</code> and not the integer <code>120</code>
+      </p>
+      <p>
+        Since we want to do some math on the height, we want it to be an integer.
+        You can convert a string to an integer in python in a single line using 
+        <code> int()</code>.
+      </p>
+      <Gist id={'19e07d24848233f2dcea94e1e2c3643c'}/>
+      <p>
+        If you run this code now, you should see the following output
+      </p>
+      <pre>
+      Please enter your height: 120<br/>
+      height entered by the user is -<br/>
+      120<br/>
+      240<br/>
+      </pre>
+      <p>
+        If you see on line 5, we are printing <code>height*2</code>
+        and the output is 240. This means our integer conversion worked.
+      </p>
+      <br/>
+      <h2>Adding the BMI calculation code</h2>
+      <p>
+        We now know how to take the user input and convert it into an integer.
+        Let us now bring it all together by adding the BMI calculation code
+        from the last tutorial. This is how the final file should look.
+      </p>
+      <Gist id={'c47b8b8726930641e8d69c968e40e295'}/>
+      <p>
+        We are asking the user for the height, then converting it into an integer. 
+        We do the same for the weight. Finally, we use the formula to calculate and print
+        the BMI. You can run this program multiple times and enter different heights and weights.
+      </p>
+      <img src={bmi_input_gif} alt='BMI with input'/>
+      <br/>
+      <h2>Summary</h2>
+      <p>
+        This concludes our BMI calculator, for now. You have now officially made your first 'App'
+        using python. It might not look that pretty, but it is still and App. It takes input
+        from the user and outputs useful information.
+      </p>
+      <p>
+        You can make pretty apps with python as well, complete with buttons and colors and 
+        images. But we'll keep that for another day. Let's get the basics done first.
+      </p>
+      <p>
+        In the next few tutorials you will learn about loops, which is another important
+        concept in programming.
+      </p>
       <footer>
+      Next tutorial -
+      <Link to="/loops-intro">Introduction to loops</Link>
       </footer>
     </div>
   );
