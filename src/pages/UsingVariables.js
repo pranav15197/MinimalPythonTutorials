@@ -18,7 +18,7 @@ function HelloWorld() {
         process learn more about variables.
       </p>
       <br/>
-      <h1>Numbers in Python</h1>
+      <h2>Numbers in Python</h2>
       <p>
         In the last tutorial, we printed the text <code>Hello World</code>. Such text 
         values are called <b>strings</b>. All you need to know about strings, for
@@ -60,7 +60,7 @@ function HelloWorld() {
         then prints it.
       </p>
       <br/>
-      <h1>Calculating BMI</h1>
+      <h2>Calculating BMI</h2>
       <p>You can calculate the BMI by using a simple formula</p>
       <ol>
         <li>Multiply the weight (in kgs) by 10,000</li>
@@ -95,7 +95,7 @@ function HelloWorld() {
         grab a calculator and verify that is indeed correct. 
       </p>
       <br/>
-      <h1>Why do we need variables?</h1>
+      <h2>Why do we need variables?</h2>
       <p>
         We have our calculator
         working now, but there is one issue. If we want to calculate the BMI for 
@@ -109,7 +109,7 @@ function HelloWorld() {
         can tell python the name of the box and it will get the value for you
       </p>
       <br/>
-      <h1>Creating Variables</h1>
+      <h2>Creating Variables</h2>
       <p>
         Creating variables in python is straightforward. Let's create two variables in 
         our code one for the height and one for the weight of the user. We do this by
@@ -141,7 +141,7 @@ function HelloWorld() {
         your own BMI.
       </p>
       <br/>
-      <h1>Summary</h1>
+      <h2>Summary</h2>
       <p>
         Congratulations! you just wrote yourself a python program that's actually
         useful. Hopefully, it was not too overwhelming. So far we have learned how to
