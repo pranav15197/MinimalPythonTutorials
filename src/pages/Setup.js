@@ -33,7 +33,7 @@ function Setup() {
       </p>
       <p>
         Once the .exe file is downloaded, run it by double-clicking on it. Then just like
-        any other installation on windows, just keep clicking next untill the installation
+        any other installation on windows, just keep clicking next until the installation
         is complete. 
       </p>
       <br/>
@@ -71,7 +71,7 @@ function Setup() {
       </table>
       <p>
         Once you have the terminal open, just type in <b>python</b> and press enter.
-        Hopefully you would see something like this.
+        Hopefully, you would see something like this.
         <img src={terminal} alt="python terminal" />
         What you see above is called a <b>python shell</b>. It allows you to run
         python commands. You can give it a try. type 2 + 2 and press enter.
@@ -89,8 +89,8 @@ function Setup() {
       <h2>Install Visual Studio Code</h2>
       <p>
         Technically you can just use the python shell to write and run python code.
-        But most programmes that you will write will be 100s or even 1000s of lines long.
-        It doesn't make sense to type the entire code in the shell everytime.
+        But most programs that you will write will be 100s or even 1000s of lines long.
+        It doesn't make sense to type the entire code in the shell every time.
       </p>
       <p>
         In general, we write code in text files. Think of these as recipes. Your computer
@@ -106,7 +106,7 @@ function Setup() {
       <h2>Summary</h2>
       <p>
         You now have everything you need in order to learn and write python code. From now
-        on I'll assume that you know how to open the terminal on your computer, and that you have 
+        on I'll assume that you know how to open the terminal on your computer and that you have 
         VSCode installed.
       </p>
       <p>

@@ -14,26 +14,26 @@ function HelloWorld() {
         save some data and then refer to it later using a variable name. 
       </p>
       <p>
-        In this chapter we will create a BMI calculator with python, and in the
+        In this chapter, we will create a BMI calculator with python, and in the
         process learn more about variables.
       </p>
       <br/>
       <h1>Numbers in Python</h1>
       <p>
-        In the last tutorial we printed the text 'Hello World'. Such text 
-        values are called <b>strings</b>. All you need to know about strings for
-        now is  they should be surrounded by quotes ( <b>'</b> or <b>"</b> are
+        In the last tutorial, we printed the text 'Hello World'. Such text 
+        values are called <b>strings</b>. All you need to know about strings, for
+        now, is they should be surrounded by quotes ( <b>'</b> or <b>"</b> are
         both ok).
       </p>
       <p>
         In addition to text, we would often need to deal with numbers as well.
         For instance, the height and the weight of the user are numbers, and 
         so is the BMI. Python allows you to easily perform operations ( addition, 
-        muliplication etc.) on numbers
+        multiplication, etc.) on numbers
       </p>
       <p>
         Let's go ahead and use some numbers in python. Write the following code in
-        you file and run it. Don't copy paste the code, type it all out yourself.
+        your file and run it. Don't copy-paste the code, type it all out yourself.
       </p>
       <Gist id={'607f5f8023359056bc0dc66372e87c6f'} />
       <p>
@@ -50,7 +50,7 @@ function HelloWorld() {
       </pre>
       <p>
         The first thing you should notice from the above code is that unlike 
-        strings, numbers don't need to be surrounded with quotes.
+        strings, numbers don't need to be surrounded by quotes.
       </p>
       <p>
         Another interesting thing is what happens on line 4. On all the other lines,
@@ -72,7 +72,7 @@ function HelloWorld() {
       <p>
         Notice how we have the brackets around 64*1000 and 160*160 on line 10.
         This is so that both these products are calculated first, and then the
-        division happends. Go ahead and run this code. You should see the
+        division happens. Go ahead and run this code. You should see the
         following output.
       </p>
       <pre>
@@ -114,9 +114,9 @@ function HelloWorld() {
       </p>
       <Gist id={'557041c94454f472a20de4b73e6e69dd'}/>
       <p>
-        We now have a varibale named <b>height</b> whose value is 160, and a 
+        We now have a variable named <b>height</b> whose value is 160, and a 
         variable named <b>weight</b> whose value is 64. Let's update our BMI 
-        calcualtion code using these variables.
+        calculation code using these variables.
       </p>
       <Gist id={'8f55b6b6c979ef34a99f633567f14439'}/>
       <p>
@@ -141,7 +141,7 @@ function HelloWorld() {
       <h1>Summary</h1>
       <p>
         Congratulations! you just wrote yourself a python program that's actually
-        useful. Hopefully it was not too overwhelming. So far we have learned how to
+        useful. Hopefully, it was not too overwhelming. So far we have learned how to
       </p>
       <ul>
         <li>Do math in python</li>

@@ -11,8 +11,8 @@ function HelloWorld() {
       <br/>
       <p>
         It's a tradition to start every coding tutorial with a Hello World program, 
-        i.e. a programe that just prints the words 'Hello World!' on your computer screen.
-        writing this program in python is rediculously easy. So let's get started.
+        i.e. a program that just prints the words 'Hello World!' on your computer screen.
+        writing this program in python is ridiculously easy. So let's get started.
       </p>
       <br/>
       <h2>Creating your first Python file</h2>
@@ -46,7 +46,7 @@ function HelloWorld() {
       <p>
         You don't need to think too much about how this is working. Why are
         there quotes around hello? you might be wondering. It will all become
-        clear in the coming tutorial. For now all you need to understand is that
+        clear in the coming tutorial. For now, all you need to understand is that
         this is how you use python to display text on the screen.
       </p>
       <br/>
@@ -64,13 +64,13 @@ function HelloWorld() {
       <br/>
       <h2>Summary</h2>
       <p>
-        That was easy wasn't it? It may not look like much, but you have now learned how to
+        That was easy, wasn't it? It may not look like much, but you have now learned how to
         <ul>
           <li>Create a new python file</li>
-          <li>Use the <b>print</b> comand to display text on the screen</li>
+          <li>Use the <b>print</b> command to display text on the screen</li>
           <li>Run python file using the VSCode's terminal</li>
         </ul>
-        In the next tutorial we will learn how to use variables.
+        In the next tutorial, we will learn how to use variables.
       </p>
       <footer>
       Next tutorial -
