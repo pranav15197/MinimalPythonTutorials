@@ -16,6 +16,7 @@ function Index() {
       <Link to="/setup">1. Setup your computer for python development</Link>
       <Link to="/hello-world">2. Hello World!</Link>
       <Link to="/using-variables">3. Using Variables</Link>
+      <Link to="/user-input">4. Taking inputs from the User</Link>
     </div>
   );
 }

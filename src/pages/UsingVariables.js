@@ -152,6 +152,8 @@ function HelloWorld() {
         input from the user.
       </p>
       <footer>
+      Next tutorial -
+      <Link to="/user-input">Taking inputs from the user</Link>
       </footer>
     </div>
   );
