@@ -39,7 +39,7 @@ function ForLoops() {
         code, we need to move up the complexity little by little.
       </p>
       <p>
-        In this tutorial we'll look at how to write multiplication
+        In this tutorial, we'll look at how to write multiplication
         tables with python, a task that might be a bit tough to do
         manually.
       </p>
@@ -80,7 +80,7 @@ function ForLoops() {
         it prints that. But <code>print</code> can handle multiple values as well.
       </p>
       <p>
-        If we pass more than one values to the <code>print</code> then it prints all of them
+        If we pass more than one value to the <code>print</code> then it prints all of them
         on the same line with a space in between. This is why when we pass the string 
         <code>"6 x 1 ="</code> and the expression <code>6*1</code> to <code>print</code>,
         both of them are printed on the same line.
@@ -101,9 +101,9 @@ function ForLoops() {
       <h2>Adding Variables</h2>
       <p>
         Let's now use our knowledge of variables to make the code
-        more dynamic. We'll create a varibale named <code>number</code>
+        more dynamic. We'll create a variable named <code>number</code>
         that will hold the value of the number whose table we want to generate.
-        We'll then use this varibale while printing.
+        We'll then use this variable while printing.
       </p>
       <p>
         Update your code as shown below
@@ -112,20 +112,21 @@ function ForLoops() {
       <p>
         If you run this code you'll see that we are still getting the same 
         output. But it's way easier for us to update the number and generate 
-        a new table. You should give it a try, change the value of number on line 1 to anything
+        a new table. You should give it a try, change the value of
+         <code>number</code> on line 1 to anything
         you want and see the output.
       </p>
       <br/>
       <h2>Summary</h2>
       <p>
-        Our code is doing the job that's requried properly. But there is still an issue with 
+        Our code is doing the job that's required properly. But there is still an issue with 
         it. What if we wanted tables that went up to 20 instead of 10? We would have to 
         add 10 more lines to our code. This is not ideal.
       </p>
       <p>
-        You should always be worried when you have such repetetive lines in your code.
-        One way to get rid of such repetetion is by using <b>loops</b>. The idea of 
-        loops might be confusing for beginners, so we will take it slow. In the next chapter
+        You should always be worried when you have such repetitive lines in your code.
+        One way to get rid of such repetition is by using <b>loops</b>. The idea of 
+        loops might be confusing for beginners, so we will take it slow. In the next chapter,
         we will handle the for loop.
       </p>
       <footer>
