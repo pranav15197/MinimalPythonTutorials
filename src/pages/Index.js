@@ -26,7 +26,10 @@ function Index() {
         4. <Link to="/user-input">Taking inputs from the User</Link>
       </div>
       <div className="link-container">
-        5. <Link to="/for-loops">For loops</Link>
+        5. <Link to="/for-loops_i">For loops - I</Link>
+      </div>
+      <div className="link-container">
+        6. <Link to="/for-loops_ii">For loops - II</Link>
       </div>
     </div>
   );

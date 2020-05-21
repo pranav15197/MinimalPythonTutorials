@@ -7,6 +7,7 @@ import HelloWorld from './pages/HelloWorld';
 import UsingVariables from './pages/UsingVariables';
 import UserInput from './pages/UserInput';
 import ForLoops from './pages/ForLoops';
+import ForLoops2 from './pages/ForLoops2';
 import Index from './pages/Index';
 import ScrollIntoView from './ScrollIntoView';
 
@@ -19,7 +20,8 @@ function App() {
           <Route path="/hello-world"><HelloWorld /></Route>
           <Route path="/using-variables"><UsingVariables /></Route>
           <Route path="/user-input"><UserInput /></Route>
-          <Route path="/for-loops"><ForLoops /></Route>
+          <Route path="/for-loops_i"><ForLoops /></Route>
+          <Route path="/for-loops_ii"><ForLoops2 /></Route>
           <Route path="/"><Index /></Route>
         </Switch>
       </ScrollIntoView>
