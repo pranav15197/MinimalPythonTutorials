@@ -112,7 +112,7 @@ function HelloWorld() {
       </p>
       <footer>
       Next tutorial -
-      <Link to="/loops-intro">Introduction to loops</Link>
+      <Link to="/for-loops">For loops</Link>
       </footer>
     </div>
   );

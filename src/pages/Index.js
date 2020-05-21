@@ -13,10 +13,21 @@ function Index() {
         So if you have a few hours to kill, why not give these a shot!
       </p>
       <br/>
-      <Link to="/setup">1. Setup your computer for python development</Link>
-      <Link to="/hello-world">2. Hello World!</Link>
-      <Link to="/using-variables">3. Using Variables</Link>
-      <Link to="/user-input">4. Taking inputs from the User</Link>
+      <div className="link-container">
+        1. <Link to="/setup">Setup your computer for python development</Link>
+      </div>
+      <div className="link-container">
+        2. <Link to="/hello-world">Hello World!</Link>
+      </div>
+      <div className="link-container">
+        3. <Link to="/using-variables">Using Variables</Link>
+      </div>
+      <div className="link-container">
+        4. <Link to="/user-input">Taking inputs from the User</Link>
+      </div>
+      <div className="link-container">
+        5. <Link to="/for-loops">For loops</Link>
+      </div>
     </div>
   );
 }

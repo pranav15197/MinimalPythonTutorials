@@ -41,11 +41,14 @@ pre {
   padding-left:10px
 }
 
-a {
+.link-container {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.link-container > a {
   font-weight: 400;
-  display: block;
   margin-bottom: 20px;
-  font-size: 1.4em;
   color: black;
 }
 
