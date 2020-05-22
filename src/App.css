@@ -43,6 +43,8 @@ code {
   margin: 0 5px;
   color: black;
   font-size: 1.2em;
+  padding: 0px 3px;
+  background-color: #e8e4e1;
 }
 
 pre {
