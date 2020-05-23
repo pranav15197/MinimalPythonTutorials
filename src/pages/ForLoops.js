@@ -1,6 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Gist from 'react-gist'
+
+const TITLE = 'For loops - I'
+const PATH = 'for-loops_i'
 
 const styles = {
   multiplicationTableContainer: {
@@ -28,10 +30,7 @@ const MultiplicationTable = ({n}) => {
 function ForLoops() {
   
   return (
-    <div className="container">
-      <Link to="/">Home</Link>
-      <h1>For loops - I</h1>
-      <br/>
+    <>
       <p>
         The whole idea about programming is to make the computer do
         a task that might be tough for us to do manually. Our BMI
@@ -129,12 +128,11 @@ function ForLoops() {
         loops might be confusing for beginners, so we will take it slow. In the next chapter,
         we will handle the for loop.
       </p>
-      <footer>
-      Next tutorial -
-      <Link to="/for-loops_ii">For loops - II</Link>
-      </footer>
-    </div>
+    </>
   );
 }
+
+ForLoops.title = TITLE
+ForLoops.path = PATH
 
 export default ForLoops

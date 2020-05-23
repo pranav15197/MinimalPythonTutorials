@@ -1,13 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Gist from 'react-gist'
 
-function HelloWorld() {
+const TITLE = 'Using Variables'
+const PATH = 'using-variables'
+
+function UsingVariables() {
   return (
-    <div className="container">
-      <Link to="/">Home</Link>
-      <h1>Using Variables</h1>
-      <br/>
+    <>
       <p>
         We'll now look at how and why to use Variables in python. Variables
         are the staple of any programming language. Variables allow you to 
@@ -154,12 +153,11 @@ function HelloWorld() {
         In the next chapter, we will make our program interactive, by taking
         input from the user.
       </p>
-      <footer>
-      Next tutorial -
-      <Link to="/user-input">Taking inputs from the user</Link>
-      </footer>
-    </div>
+    </>
   );
 }
 
-export default HelloWorld
+UsingVariables.title = TITLE
+UsingVariables.path = PATH
+
+export default UsingVariables

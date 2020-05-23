@@ -1,14 +1,13 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Gist from 'react-gist'
 import hello_gif from '../assets/hello_world.gif'
 
+const TITLE = 'Hello World!'
+const PATH = 'hello-world'
+
 function HelloWorld() {
   return (
-    <div className="container">
-      <Link to="/">Home</Link>
-      <h1>Hello World!</h1>
-      <br/>
+    <>
       <p>
         It's a tradition to start every coding tutorial with a Hello World program, 
         i.e. a program that just prints the words 'Hello World!' on your computer screen.
@@ -72,12 +71,11 @@ function HelloWorld() {
         </ul>
         In the next tutorial, we will learn how to use variables.
       </p>
-      <footer>
-      Next tutorial -
-      <Link to="/using-variables">Using Variables</Link>
-      </footer>
-    </div>
+    </>
   );
 }
+
+HelloWorld.title = TITLE
+HelloWorld.path = PATH
 
 export default HelloWorld

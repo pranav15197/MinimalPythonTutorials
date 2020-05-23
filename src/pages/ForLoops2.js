@@ -3,14 +3,13 @@ import { Link } from 'react-router-dom'
 import Gist from 'react-gist'
 import indent_gif from '../assets/indent.gif'
 
+const TITLE = 'For loops - II'
+const PATH = 'for-loops_ii'
 
 function ForLoops2() {
   
   return (
-    <div className="container">
-      <Link to="/">Home</Link>
-      <h1>For loops - II</h1>
-      <br/>
+    <>
       <p>
         In the last tutorial we wrote a piece of code to write multiplication tables.
         But we could do better. In this tutorial we will see how we can make our code 
@@ -135,12 +134,11 @@ function ForLoops2() {
           Modify the script so that the number is taken from the user input.
         </li>
       </ol>
-      <footer>
-      Next tutorial -
-      <Link to="/">The If Condition</Link>
-      </footer>
-    </div>
+    </>
   );
 }
+
+ForLoops2.title = TITLE
+ForLoops2.path = PATH
 
 export default ForLoops2

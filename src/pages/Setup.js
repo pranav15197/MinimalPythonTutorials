@@ -1,14 +1,13 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import download_python from '../assets/download_python.png'
 import terminal from '../assets/terminal.gif'
 
+const TITLE = 'Setup your computer for python development'
+const PATH = 'setup'
+
 function Setup() {
   return (
-    <div className="container">
-      <Link to="/">Home</Link>
-      <h1>Setup your computer for python development</h1>
-      <br/>
+    <>
       <p>
         Setting up python is extremely easy. We just need two things
         <ol>
@@ -112,13 +111,11 @@ function Setup() {
       <p>
         So let's not waste any more time and move to your first real tutorial!
       </p>
-      <footer>
-      Next tutorial -
-      <Link to="/hello-world">Hello World!</Link>
-      </footer>
-
-    </div>
+    </>
   );
 }
+
+Setup.title = TITLE
+Setup.path = PATH
 
 export default Setup

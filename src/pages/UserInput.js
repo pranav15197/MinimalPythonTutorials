@@ -1,15 +1,15 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Gist from 'react-gist'
 import input_gif from '../assets/user_input.gif'
 import bmi_input_gif from '../assets/bmi_with_input.gif'
 
-function HelloWorld() {
+const TITLE = 'Taking inputs from the User'
+const PATH = 'user-input'
+
+function UserInput() {
+
   return (
-    <div className="container">
-      <Link to="/">Home</Link>
-      <h1>Taking inputs from the User</h1>
-      <br/>
+    <>
       <p>
         We have a nice piece of code that helps us calculate our BMI.
         There is one issue though, we need to edit our code file each time we
@@ -110,12 +110,11 @@ function HelloWorld() {
         In the next few tutorials you will learn about loops, which is another important
         concept in programming.
       </p>
-      <footer>
-      Next tutorial -
-      <Link to="/for-loops_i">For loops - I</Link>
-      </footer>
-    </div>
+    </>
   );
 }
 
-export default HelloWorld
+UserInput.title = TITLE
+UserInput.path = PATH
+
+export default UserInput
