@@ -123,9 +123,11 @@ function ForLoops2() {
       
       <br/>
       <h2>Summary</h2>
+      <p>
       How about that! In just 3 lines of code we were able to do what earlier took us
       11 lines in. Moreover, we can now easily print tables that go up to 20, or even
       100, just by changing the range on line 2.
+      </p>
       <hr/>
       <h3>Practice exercises: </h3>
       <ol>
