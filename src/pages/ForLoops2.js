@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Gist from 'react-gist'
 import indent_gif from '../assets/indent.gif'
 
