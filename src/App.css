@@ -83,6 +83,11 @@ img {
   margin: 20px 0px;
 }
 
+.inner-a{
+  display: inline;
+  font-size: 1em;
+}
+
 .key {
   display: inline-block;
   margin: 0.1em .4em;
