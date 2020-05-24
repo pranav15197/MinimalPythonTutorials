@@ -107,7 +107,7 @@ function IfCondition() {
         <li>
           Try writing a similar piece of code that will compute 
           the <a className="inner-a" href="https://www.mathsisfun.com/numbers/factorial.html">
-            factorial</a> of a given number.
+            factorial</a> of a given number. 
         </li>
       </ol>
     </>
